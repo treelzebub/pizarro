@@ -134,7 +134,7 @@ class FileTreeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
 
     private inner class RecyclerGestureListener: GestureDetector.SimpleOnGestureListener() {
         override fun onSingleTapConfirmed(e: MotionEvent): Boolean {
-            val view = recycler.findChildViewUnder(e.x, e.y)
+            val view = recycler.findChildViewUnder(e.x, e.y) ?: return false
             onClick(view)
             return super.onSingleTapConfirmed(e)
         }
