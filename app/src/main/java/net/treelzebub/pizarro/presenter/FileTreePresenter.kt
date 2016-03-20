@@ -10,7 +10,9 @@ interface FileTreePresenter : Presenter {
 
     var view: FileTreeView?
     fun create()
+    fun reload()
     fun changeDirOrOpen(c: Context, data: FileMetadata)
+    fun mkDir(name: String): Boolean
     fun canGoBack(): Boolean
     fun onBack()
 }

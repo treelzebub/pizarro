@@ -14,8 +14,10 @@ interface FileTreeModel {
     val stack: Stack<File>
 
     fun ls(dir: File?): List<FileMetadata>
+    fun reload(): List<FileMetadata>
     fun cd(oldDir: File, newDir: File): List<FileMetadata>
     fun exec(c: Context, uri: Uri)
+    fun mkDir(name: String): Boolean
     fun canGoBack(): Boolean
     fun back(): List<FileMetadata>?
 }

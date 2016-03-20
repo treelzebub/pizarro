@@ -23,6 +23,10 @@ class FileTreePresenterImpl(override var view: FileTreeView?) : FileTreePresente
         view?.setFileTree(metadataItems)
     }
 
+    override fun reload() {
+        view?.setFileTree(model.reload())
+    }
+
     override fun changeDirOrOpen(c: Context, data: FileMetadata) {
         val newFile = File(URI(data.uri.toString()))
         if (newFile.isDirectory) {
@@ -30,6 +34,10 @@ class FileTreePresenterImpl(override var view: FileTreeView?) : FileTreePresente
         } else {
             model.exec(c, Uri.fromFile(newFile))
         }
+    }
+
+    override fun mkDir(name: String): Boolean {
+        return model.mkDir(name)
     }
 
     override fun canGoBack(): Boolean {

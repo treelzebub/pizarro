@@ -15,9 +15,11 @@ import java.util.*
  */
 class FileTreeModelImpl : FileTreeModel {
 
-    private val rootDir: File get() = Environment.getExternalStorageDirectory()
+    private val rootDir: File    get() = Environment.getExternalStorageDirectory()
+    private var currentDir: File = rootDir
 
     override val stack: Stack<File> = Stack()
+
 
     override fun ls(dir: File?): List<FileMetadata> {
         val safeDir = dir ?: rootDir
@@ -26,8 +28,13 @@ class FileTreeModelImpl : FileTreeModel {
                       .sortedBy { it.name.first().toInt() }
     }
 
+    override fun reload(): List<FileMetadata> {
+        return ls(currentDir)
+    }
+
     override fun cd(oldDir: File, newDir: File): List<FileMetadata> {
         stack.push(oldDir)
+        currentDir = newDir
         return ls(newDir)
     }
 
@@ -40,6 +47,10 @@ class FileTreeModelImpl : FileTreeModel {
             setDataAndType(uri, type)
         }
         c.startActivity(intent)
+    }
+
+    override fun mkDir(name: String): Boolean {
+        return File(currentDir.path + "/$name").mkdir()
     }
 
     override fun canGoBack(): Boolean {

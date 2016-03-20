@@ -3,7 +3,6 @@ package net.treelzebub.pizarro.activity
 import android.os.Bundle
 import android.support.design.widget.FloatingActionButton
 import android.support.design.widget.NavigationView
-import android.support.design.widget.Snackbar
 import android.support.v4.view.GestureDetectorCompat
 import android.support.v4.view.GravityCompat
 import android.support.v4.widget.DrawerLayout
@@ -14,9 +13,12 @@ import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.Toolbar
 import android.view.*
+import android.widget.Toast
 import butterknife.bindView
+import net.treelzebub.kapsule.extensions.TAG
 import net.treelzebub.pizarro.R
 import net.treelzebub.pizarro.adapter.FileTreeAdapter
+import net.treelzebub.pizarro.dialog.NewFolderDialogFragment
 import net.treelzebub.pizarro.explorer.entities.FileMetadata
 import net.treelzebub.pizarro.listener.FileTreeOnTouchListener
 import net.treelzebub.pizarro.presenter.FileTreePresenter
@@ -27,8 +29,8 @@ import net.treelzebub.pizarro.presenter.PresenterHolder
 /**
  * Created by Tre Murillo on 3/19/16
  */
-class FileTreeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener,
-        FileTreeOnTouchListener, FileTreeView {
+class FileTreeActivity : AppCompatActivity(), FileTreeView, NavigationView.OnNavigationItemSelectedListener,
+        FileTreeOnTouchListener, OnNewFolderListener {
 
     private val toolbar: Toolbar            by bindView(R.id.toolbar)
     private val fab: FloatingActionButton   by bindView(R.id.fab)
@@ -104,6 +106,16 @@ class FileTreeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
         fileTreeAdapter.treeItems = treeItems
     }
 
+    override fun onNewFolder(name: String) {
+        val result = if (presenter.mkDir(name)) {
+            presenter.reload()
+            "$name created."
+        } else {
+            "Can't create folder here."
+        }
+        Toast.makeText(this, result, Toast.LENGTH_SHORT).show()
+    }
+
     fun createPresenter(): FileTreePresenter {
         val presenter = PresenterHolder.getPresenter(FileTreePresenter::class.java)
                 ?: FileTreePresenterImpl(this)
@@ -113,7 +125,10 @@ class FileTreeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
 
     private fun setupView() {
         fab.setOnClickListener {
-            Snackbar.make(it, "TODO!", Snackbar.LENGTH_LONG).setAction("Action", null).show()
+            NewFolderDialogFragment().apply {
+                listener = this@FileTreeActivity
+                show(supportFragmentManager, TAG)
+            }
         }
         val toggle = ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
@@ -144,4 +159,8 @@ class FileTreeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
         val data = fileTreeAdapter.getItem(position) ?: return
         presenter.changeDirOrOpen(this, data)
     }
+}
+
+interface OnNewFolderListener {
+    fun onNewFolder(name: String)
 }
