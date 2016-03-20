@@ -14,9 +14,9 @@ class FileTreeModelImpl : FileTreeModel {
     }
 
     override fun ls(dir: File?): List<FileMetadata> {
-        return (dir ?: rootDir)
-                .listFiles()
-                .map { FileMetadata(it) }
-                .sortedBy { it.name.first().toInt() }
+        val safeDir = dir ?: rootDir
+        return safeDir.listFiles()
+                      .map { FileMetadata(it) }
+                      .sortedBy { it.name.first().toInt() }
     }
 }

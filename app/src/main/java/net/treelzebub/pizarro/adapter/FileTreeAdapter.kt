@@ -26,7 +26,7 @@ class FileTreeAdapter : RecyclerView.Adapter<FileTreeItemHolder>() {
     private val layout = R.layout.item_file
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FileTreeItemHolder {
-        return FileTreeItemHolder(parent.inflate(layout), this)
+        return FileTreeItemHolder(parent.inflate(layout))
     }
 
     override fun onBindViewHolder(holder: FileTreeItemHolder, position: Int) {

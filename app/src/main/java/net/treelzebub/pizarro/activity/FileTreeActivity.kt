@@ -114,6 +114,7 @@ class FileTreeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
         recycler.apply {
             itemAnimator = DefaultItemAnimator()
             layoutManager = LinearLayoutManager(this@FileTreeActivity)
+            adapter = fileTreeAdapter
         }
     }
 }
