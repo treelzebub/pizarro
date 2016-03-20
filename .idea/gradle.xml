@@ -9,12 +9,16 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/explorer" />
+            <option value="$PROJECT_DIR$/player" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/explorer" />
+            <option value="$PROJECT_DIR$/player" />
           </set>
         </option>
       </GradleProjectSettings>

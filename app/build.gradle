@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion project.sdk_version
@@ -10,10 +11,6 @@ android {
         targetSdkVersion project.sdk_version
         versionCode 1
         versionName "0.01"
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
     }
     buildTypes {
         debug {
@@ -29,14 +26,15 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:4.12'
+    compile project(':explorer')
+    compile project(':player')
 
     // Lang + Util
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     compile 'io.reactivex:rxandroid-framework:0.24.0'
     compile 'net.danlew:android.joda:2.8.2'
     compile 'com.squareup:otto:1.3.7'
-    compile 'com.github.treelzebub:kapsule:v0.2'
+    compile 'com.github.treelzebub:kapsule:v0.3'
 
     // Support
     compile "com.android.support:appcompat-v7:$support_version"
@@ -49,4 +47,5 @@ dependencies {
     // UI
     compile 'com.jakewharton:butterknife:7.0.1'
     compile 'com.jakewharton:kotterknife:0.1.0-SNAPSHOT'
+    testCompile 'junit:junit:4.12'
 }

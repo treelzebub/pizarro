@@ -8,12 +8,14 @@ import android.support.v4.view.GravityCompat
 import android.support.v4.widget.DrawerLayout
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.Toolbar
 import android.view.Menu
 import android.view.MenuItem
 import butterknife.bindView
 import net.treelzebub.pizarro.R
+import net.treelzebub.pizarro.adapter.FileTreeAdapter
 
 /**
  * Created by Tre Murillo on 3/19/16
@@ -26,7 +28,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     private val nav: NavigationView         by bindView(R.id.nav_view)
     private val recycler: RecyclerView      by bindView(R.id.recycler)
 
-    private val adapter = FileTreeAdapter()
+    private val fileTreeAdapter = FileTreeAdapter()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,6 +36,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setSupportActionBar(toolbar)
         setupView()
         setupRecycler()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        fileTreeAdapter.refresh()
     }
 
     override fun onBackPressed() {
@@ -89,7 +96,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     private fun setupRecycler() {
         recycler.apply {
-
+            layoutManager = LinearLayoutManager(this@MainActivity)
+            adapter = fileTreeAdapter
         }
     }
 }

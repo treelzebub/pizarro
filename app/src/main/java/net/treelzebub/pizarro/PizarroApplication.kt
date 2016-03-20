@@ -9,6 +9,6 @@ class PizarroApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-
+        BaseInjection.context = this
     }
 }
