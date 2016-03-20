@@ -1,6 +1,7 @@
-package net.treelzebub.pizarro.explorer.model
+package net.treelzebub.pizarro.explorer.entities
 
 import android.support.annotation.DrawableRes
+import net.treelzebub.pizarro.explorer.R
 import java.io.File
 import java.net.URI
 
@@ -19,14 +20,7 @@ class FileMetadata {
         this.name = file.name
         this.size = if (file.isDirectory) size(dirLength(file)) else size(file.length())
         this.uri  = file.toURI()
-        this.icon = icon(file)
-    }
-
-    private fun icon(file: File): Int {
-        //TODO
-        return when (file.extension) {
-            else -> android.R.drawable.ic_menu_info_details
-        }
+        this.icon = drawableRes(file)
     }
 
     private fun size(size: Long): String {
@@ -51,5 +45,22 @@ class FileMetadata {
             }
         }
         return length
+    }
+
+    val imageFormats = listOf("gif", "png", "jpg", "jpeg", "svg", "tif", "tiff")
+    val audioFormats = listOf("mp3", "wav", "ogg", "flac", "3ga", "wma", "midi")
+    val videoFormats = listOf("mp4", "avi", "mpeg", "mpg", "mov", "qt", "flv", "swf",
+                              "asf", "wmv", "h.264", "divx")
+    private fun drawableRes(file: File): Int {
+        return if (file.isDirectory) {
+            R.drawable.ic_folder
+        } else {
+            when (file.extension.toLowerCase()) {
+                in imageFormats -> R.drawable.ic_image_file
+                in audioFormats -> R.drawable.ic_audio_file
+                in videoFormats -> R.drawable.ic_video_file
+                else            -> R.drawable.ic_unknown_file
+            }
+        }
     }
 }

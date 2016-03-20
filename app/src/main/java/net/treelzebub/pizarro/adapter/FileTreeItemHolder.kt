@@ -7,7 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import butterknife.bindView
 import net.treelzebub.pizarro.R
-import net.treelzebub.pizarro.explorer.model.FileMetadata
+import net.treelzebub.pizarro.explorer.entities.FileMetadata
 
 /**
  * Created by Tre Murillo on 3/19/16

@@ -1,6 +1,7 @@
 package net.treelzebub.pizarro.explorer.model
 
 import android.os.Environment
+import net.treelzebub.pizarro.explorer.entities.FileMetadata
 import java.io.File
 
 /**

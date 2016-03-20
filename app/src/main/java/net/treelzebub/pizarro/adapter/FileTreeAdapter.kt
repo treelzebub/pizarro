@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import net.treelzebub.kapsule.extensions.TAG
 import net.treelzebub.kapsule.extensions.inflate
 import net.treelzebub.pizarro.R
-import net.treelzebub.pizarro.explorer.model.FileMetadata
+import net.treelzebub.pizarro.explorer.entities.FileMetadata
 
 /**
  * Created by Tre Murillo on 3/19/16

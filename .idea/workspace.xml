@@ -11,113 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ad3f3a9-ba7f-471b-be76-72da9bbfbbc0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_andy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_bluetooth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_bluetooth_connected.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_bluetooth_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_bluetooth_transmitting.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_dot_dot_dot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_down_arrow_no_stick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_left_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_left_arrow_no_stick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_right_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_right_arrow_no_stick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_settings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_text_file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_up_arrow_no_stick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_andy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_bluetooth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_bluetooth_connected.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_bluetooth_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_bluetooth_transmitting.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_dot_dot_dot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_down_arrow_no_stick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_left_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_left_arrow_no_stick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_right_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_right_arrow_no_stick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_text_file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_up_arrow_no_stick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_circle_minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_circle_plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_circle_slash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_down_arrow_bottom_line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_drive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_favorite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_grid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_image_file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_locked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_locked_empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_not_favorite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_paste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_pdf_file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_redo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_share.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_text_file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_unlocked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_up_arrow_bottom_line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_usb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_video_file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_circle_minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_circle_plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_circle_slash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_down_arrow_bottom_line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_drive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_favorite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_grid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_image_file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_locked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_locked_empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_not_favorite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_paste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_pdf_file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_share.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_unlocked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_up_arrow_bottom_line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_usb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_video_file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_cast.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_casting.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_fast_forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_mute.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_pause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_rewind.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_stop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_track_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_track_forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_volume_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_volume_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xxxhdpi/ic_cast.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xxxhdpi/ic_casting.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xxxhdpi/ic_fast_forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xxxhdpi/ic_mute.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xxxhdpi/ic_pause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xxxhdpi/ic_play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xxxhdpi/ic_rewind.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xxxhdpi/ic_stop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xxxhdpi/ic_track_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xxxhdpi/ic_track_forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xxxhdpi/ic_volume_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/drawable-xxxhdpi/ic_volume_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_audio_file.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_unknown_file.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_audio_file.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_unknown_file.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileMetadata.kt" afterPath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/activity/FileTreeActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/activity/FileTreeActivity.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/adapter/FileTreeAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/adapter/FileTreeAdapter.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/adapter/FileTreeItemHolder.kt" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/adapter/FileTreeItemHolder.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenterImpl.kt" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenterImpl.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreeView.kt" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreeView.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModel.kt" afterPath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModel.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModelImpl.kt" afterPath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModelImpl.kt" />
     </list>
     <ignored path="Pizarro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -157,7 +63,20 @@
     <favorites_list name="Pizarro" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FileMetadata.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4755404">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding>
+                <element signature="e#50#176#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -3632,6 +3551,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/adapter/FileTreeAdapter.kt" />
         <option value="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModelImpl.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/activity/FileTreeActivity.kt" />
+        <option value="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt" />
       </list>
     </option>
   </component>
@@ -3685,146 +3605,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xxxhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="player" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xhdpi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -4024,6 +3804,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="explorer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="treelzebub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="explorer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -4065,182 +3891,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mipmap-xxxhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mipmap-xxhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mipmap-hdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xxxhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xhdpi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -4408,6 +4058,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="net.treelzebub.pizarro.explorer.entities" />
       <recent name="net.treelzebub.pizarro" />
       <recent name="net.treelzebub.pizarro.explorer.model" />
       <recent name="net.treelzebub.pizarro.activity" />
@@ -4416,11 +4067,11 @@
       <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
+      <recent name="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi" />
       <recent name="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
       <recent name="$PROJECT_DIR$/player/src/main/res/drawable-xhdpi" />
       <recent name="$PROJECT_DIR$/player/src/main/res/drawable-xxxhdpi" />
-      <recent name="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
@@ -4726,7 +4377,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -4743,7 +4394,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.502442" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24114774" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24114774" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -4804,7 +4455,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModelImpl.kt</url>
-          <line>17</line>
+          <line>18</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -4821,31 +4472,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_drive.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_down_arrow_bottom_line.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_delete.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_cut.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_copy.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_circle_slash.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -5074,6 +4700,36 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_andy.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_unknown_file.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_unknown_file.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_audio_file.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_audio_file.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4755404">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#50#176#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

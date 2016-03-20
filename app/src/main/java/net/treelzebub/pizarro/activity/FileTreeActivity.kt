@@ -18,7 +18,7 @@ import butterknife.bindView
 import net.treelzebub.pizarro.PresenterHolder
 import net.treelzebub.pizarro.R
 import net.treelzebub.pizarro.adapter.FileTreeAdapter
-import net.treelzebub.pizarro.explorer.model.FileMetadata
+import net.treelzebub.pizarro.explorer.entities.FileMetadata
 import net.treelzebub.pizarro.presenter.FileTreePresenter
 import net.treelzebub.pizarro.presenter.FileTreePresenterImpl
 import net.treelzebub.pizarro.presenter.FileTreeView

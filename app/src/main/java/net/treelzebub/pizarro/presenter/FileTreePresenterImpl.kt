@@ -1,7 +1,7 @@
 package net.treelzebub.pizarro.presenter
 
 import net.treelzebub.pizarro.explorer.model.FileTreeModelImpl
-import net.treelzebub.pizarro.explorer.model.FileMetadata
+import net.treelzebub.pizarro.explorer.entities.FileMetadata
 
 /**
  * Created by Tre Murillo on 3/19/16

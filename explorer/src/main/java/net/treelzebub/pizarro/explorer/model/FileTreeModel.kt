@@ -1,5 +1,6 @@
 package net.treelzebub.pizarro.explorer.model
 
+import net.treelzebub.pizarro.explorer.entities.FileMetadata
 import java.io.File
 
 /**
