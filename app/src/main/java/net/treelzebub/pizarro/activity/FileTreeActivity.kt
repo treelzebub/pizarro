@@ -3,6 +3,7 @@ package net.treelzebub.pizarro.activity
 import android.os.Bundle
 import android.support.design.widget.FloatingActionButton
 import android.support.design.widget.NavigationView
+import android.support.v4.content.ContextCompat
 import android.support.v4.view.GestureDetectorCompat
 import android.support.v4.view.GravityCompat
 import android.support.v4.widget.DrawerLayout
@@ -180,6 +181,7 @@ class FileTreeActivity : AppCompatActivity(), FileTreeView, NavigationView.OnNav
         val position = recycler.getChildLayoutPosition(view)
         val data = fileTreeAdapter.getItem(position) ?: return
         AlertDialog.Builder(this)
+                .setIcon(ContextCompat.getDrawable(this, R.drawable.ic_delete))
                 .setTitle("Delete file?")
                 .setPositiveButton("Yes") {
                     di, which -> presenter.rm(data)
