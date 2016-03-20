@@ -4,7 +4,9 @@ import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Environment
+import android.util.Log
 import android.webkit.MimeTypeMap
+import net.treelzebub.kapsule.extensions.TAG
 import net.treelzebub.kapsule.extensions.safePeek
 import net.treelzebub.pizarro.explorer.entities.FileMetadata
 import java.io.File
@@ -23,6 +25,7 @@ class FileTreeModelImpl : FileTreeModel {
 
     override fun ls(dir: File?): List<FileMetadata> {
         val safeDir = dir ?: rootDir
+        currentDir = safeDir
         return safeDir.listFiles()
                       .map { FileMetadata(it) }
                       .sortedBy { it.name.first().toInt() }
@@ -34,7 +37,6 @@ class FileTreeModelImpl : FileTreeModel {
 
     override fun cd(oldDir: File, newDir: File): List<FileMetadata> {
         stack.push(oldDir)
-        currentDir = newDir
         return ls(newDir)
     }
 
@@ -51,6 +53,16 @@ class FileTreeModelImpl : FileTreeModel {
 
     override fun mkDir(name: String): Boolean {
         return File(currentDir.path + "/$name").mkdir()
+    }
+
+    override fun rm(file: File): Boolean {
+        val absFile = File(rootDir.toString() + file.path)
+        if (!absFile.isDirectory) {
+            absFile.delete()
+
+        }
+        Log.d(TAG, if (!absFile.exists()) "${file.absolutePath} deleted" else "${file.absolutePath} not deleted")
+        return file.exists()
     }
 
     override fun canGoBack(): Boolean {

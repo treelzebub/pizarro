@@ -16,6 +16,8 @@ class FileMetadata {
     val parent: File
     @DrawableRes val icon: Int
 
+    val file: File get() = File(uri.toString())
+
     constructor(file: File) {
         this.name   = file.name
         this.size   = if (file.isDirectory) size(dirLength(file)) else size(file.length())

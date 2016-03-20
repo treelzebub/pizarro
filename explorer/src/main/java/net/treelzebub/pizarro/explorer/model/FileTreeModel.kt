@@ -18,6 +18,7 @@ interface FileTreeModel {
     fun cd(oldDir: File, newDir: File): List<FileMetadata>
     fun exec(c: Context, uri: Uri)
     fun mkDir(name: String): Boolean
+    fun rm(file: File): Boolean
     fun canGoBack(): Boolean
     fun back(): List<FileMetadata>?
 }

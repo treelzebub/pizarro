@@ -20,17 +20,19 @@ class FileTreePresenterImpl(override var view: FileTreeView?) : FileTreePresente
         if (metadataItems.isEmpty()) {
             metadataItems = model.ls(null)
         }
-        view?.setFileTree(metadataItems)
+        updateFileTree()
     }
 
     override fun reload() {
-        view?.setFileTree(model.reload())
+        metadataItems = model.reload()
+        updateFileTree()
     }
 
     override fun changeDirOrOpen(c: Context, data: FileMetadata) {
         val newFile = File(URI(data.uri.toString()))
         if (newFile.isDirectory) {
-            view?.setFileTree(model.cd(data.parent, newFile))
+            metadataItems = model.cd(data.parent, newFile)
+            updateFileTree()
         } else {
             model.exec(c, Uri.fromFile(newFile))
         }
@@ -40,11 +42,27 @@ class FileTreePresenterImpl(override var view: FileTreeView?) : FileTreePresente
         return model.mkDir(name)
     }
 
+    override fun rm(data: FileMetadata): Boolean {
+        return if (model.rm(data.file)) {
+            metadataItems = model.reload()
+            updateFileTree()
+            true
+        } else false
+    }
+
     override fun canGoBack(): Boolean {
         return model.canGoBack()
     }
 
     override fun onBack() {
-        view?.setFileTree(model.back())
+        val oneUp = model.back()
+        if (oneUp != null) {
+            metadataItems = oneUp
+            updateFileTree()
+        }
+    }
+
+    private fun updateFileTree() {
+        view?.setFileTree(metadataItems)
     }
 }

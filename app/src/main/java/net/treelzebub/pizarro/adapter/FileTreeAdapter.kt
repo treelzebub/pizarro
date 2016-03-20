@@ -1,9 +1,7 @@
 package net.treelzebub.pizarro.adapter
 
 import android.support.v7.widget.RecyclerView
-import android.util.Log
 import android.view.ViewGroup
-import net.treelzebub.kapsule.extensions.TAG
 import net.treelzebub.kapsule.extensions.inflate
 import net.treelzebub.pizarro.R
 import net.treelzebub.pizarro.explorer.entities.FileMetadata
@@ -31,7 +29,6 @@ class FileTreeAdapter : RecyclerView.Adapter<FileTreeItemHolder>() {
 
     override fun onBindViewHolder(holder: FileTreeItemHolder, position: Int) {
         holder.metadata = treeItems.elementAt(position)
-        Log.d(TAG, position.toString())
     }
 
     override fun getItemCount() = treeItems.size

@@ -7,6 +7,7 @@ import android.support.v4.view.GestureDetectorCompat
 import android.support.v4.view.GravityCompat
 import android.support.v4.widget.DrawerLayout
 import android.support.v7.app.ActionBarDrawerToggle
+import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.DefaultItemAnimator
 import android.support.v7.widget.LinearLayoutManager
@@ -25,6 +26,7 @@ import net.treelzebub.pizarro.presenter.FileTreePresenter
 import net.treelzebub.pizarro.presenter.FileTreePresenterImpl
 import net.treelzebub.pizarro.presenter.FileTreeView
 import net.treelzebub.pizarro.presenter.PresenterHolder
+import kotlin.properties.Delegates
 
 /**
  * Created by Tre Murillo on 3/19/16
@@ -38,7 +40,7 @@ class FileTreeActivity : AppCompatActivity(), FileTreeView, NavigationView.OnNav
     private val nav: NavigationView         by bindView(R.id.nav_view)
     private val recycler: RecyclerView      by bindView(R.id.recycler)
 
-    private val presenter: FileTreePresenter by lazy { createPresenter() }
+    private var presenter: FileTreePresenter by Delegates.notNull()
 
     private val fileTreeAdapter = FileTreeAdapter()
     private val gestureDetector by lazy { GestureDetectorCompat(this, RecyclerGestureListener()) }
@@ -49,6 +51,11 @@ class FileTreeActivity : AppCompatActivity(), FileTreeView, NavigationView.OnNav
         setSupportActionBar(toolbar)
         setupView()
         setupRecycler()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        presenter = createPresenter()
         presenter.create()
     }
 
@@ -148,16 +155,40 @@ class FileTreeActivity : AppCompatActivity(), FileTreeView, NavigationView.OnNav
 
     private inner class RecyclerGestureListener: GestureDetector.SimpleOnGestureListener() {
         override fun onSingleTapConfirmed(e: MotionEvent): Boolean {
-            val view = recycler.findChildViewUnder(e.x, e.y) ?: return false
+            val view = getViewAtXY(e) ?: return false
             onClick(view)
             return super.onSingleTapConfirmed(e)
         }
+
+        override fun onLongPress(e: MotionEvent) {
+            val view = getViewAtXY(e) ?: return
+            onLongClick(view)
+        }
+    }
+
+    private fun getViewAtXY(e: MotionEvent): View? {
+        return recycler.findChildViewUnder(e.x, e.y)
     }
 
     private fun onClick(view: View) {
         val position = recycler.getChildLayoutPosition(view)
         val data = fileTreeAdapter.getItem(position) ?: return
         presenter.changeDirOrOpen(this, data)
+    }
+
+    private fun onLongClick(view: View) {
+        val position = recycler.getChildLayoutPosition(view)
+        val data = fileTreeAdapter.getItem(position) ?: return
+        AlertDialog.Builder(this)
+                .setTitle("Delete file?")
+                .setPositiveButton("Yes") {
+                    di, which -> presenter.rm(data)
+                }
+                .setNegativeButton("No") {
+                    di, which -> di.dismiss()
+                }
+                .show()
+
     }
 }
 
