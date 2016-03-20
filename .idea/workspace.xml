@@ -11,19 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ad3f3a9-ba7f-471b-be76-72da9bbfbbc0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_audio_file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_unknown_file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_audio_file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_unknown_file.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileMetadata.kt" afterPath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/activity/FileTreeActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/activity/FileTreeActivity.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/adapter/FileTreeAdapter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/adapter/FileTreeAdapter.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/adapter/FileTreeItemHolder.kt" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/adapter/FileTreeItemHolder.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenterImpl.kt" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenterImpl.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreeView.kt" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreeView.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModel.kt" afterPath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModel.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModelImpl.kt" afterPath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModelImpl.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt" afterPath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt" />
     </list>
     <ignored path="Pizarro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,8 +55,8 @@
       <file leaf-file-name="FileMetadata.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4755404">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.32423207">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding>
                 <element signature="e#50#176#0" expanded="true" />
               </folding>
@@ -4724,8 +4712,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4755404">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.32423207">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding>
             <element signature="e#50#176#0" expanded="true" />
           </folding>

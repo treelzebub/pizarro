@@ -13,7 +13,6 @@ class FileMetadata {
     val name: String
     val size: String
     val uri: URI
-
     @DrawableRes val icon: Int
 
     constructor(file: File) {
