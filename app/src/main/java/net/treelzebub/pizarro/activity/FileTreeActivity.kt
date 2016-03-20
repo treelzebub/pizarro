@@ -23,7 +23,6 @@ import net.treelzebub.pizarro.presenter.FileTreePresenter
 import net.treelzebub.pizarro.presenter.FileTreePresenterImpl
 import net.treelzebub.pizarro.presenter.FileTreeView
 import net.treelzebub.pizarro.presenter.PresenterHolder
-import java.io.File
 
 /**
  * Created by Tre Murillo on 3/19/16

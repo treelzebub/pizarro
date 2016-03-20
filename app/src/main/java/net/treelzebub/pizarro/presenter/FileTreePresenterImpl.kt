@@ -2,9 +2,9 @@ package net.treelzebub.pizarro.presenter
 
 import android.content.Context
 import android.net.Uri
-import net.treelzebub.pizarro.explorer.model.FileTreeModelImpl
 import net.treelzebub.pizarro.explorer.entities.FileMetadata
 import net.treelzebub.pizarro.explorer.model.FileTreeModel
+import net.treelzebub.pizarro.explorer.model.FileTreeModelImpl
 import java.io.File
 import java.net.URI
 
