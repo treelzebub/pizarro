@@ -11,12 +11,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ad3f3a9-ba7f-471b-be76-72da9bbfbbc0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/listener/FileTreeOnTouchListener.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/PresenterHolder.kt" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/PresenterHolder.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/file_tree_activity.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_audio_file.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_audio_file.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_circle_minus.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_circle_minus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_circle_plus.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_circle_plus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_circle_slash.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_circle_slash.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_copy.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_copy.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_cut.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_delete.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_delete.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_down_arrow_bottom_line.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_down_arrow_bottom_line.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_drive.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_drive.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_favorite.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_favorite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_folder.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_folder.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_grid.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_grid.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_image_file.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_image_file.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_locked.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_locked.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_locked_empty.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_locked_empty.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_not_favorite.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_not_favorite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_paste.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_paste.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_pdf_file.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_pdf_file.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_redo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_redo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_refresh.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_refresh.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_search.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_search.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_share.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_share.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_text_file.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_text_file.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_undo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_undo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_unknown_file.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_unknown_file.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_unlocked.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_unlocked.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_up_arrow_bottom_line.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_up_arrow_bottom_line.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_usb.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_usb.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_video_file.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_video_file.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/activity/FileTreeActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/activity/FileTreeActivity.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenter.kt" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenter.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenterImpl.kt" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenterImpl.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreeView.kt" afterPath="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreeView.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt" afterPath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModel.kt" afterPath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModel.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModelImpl.kt" afterPath="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModelImpl.kt" />
@@ -59,86 +89,66 @@
     <favorites_list name="Pizarro" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.509768">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="FileTreeActivity.kt" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/activity/FileTreeActivity.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7522936">
-                  <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#41#1147#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FileTreePresenter.kt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenter.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-                  <folding>
-                    <element signature="e#42#95#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FileTreePresenterImpl.kt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenterImpl.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#42#239#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="FileTreeModel.kt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModel.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FileTreeModelImpl.kt" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModelImpl.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5642202">
-                  <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#47#275#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FileMetadata.kt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-                  <folding>
-                    <element signature="e#50#179#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="FileTreeActivity.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/activity/FileTreeActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+              <folding>
+                <element signature="e#41#1167#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileTreePresenter.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+              <folding>
+                <element signature="e#42#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileTreePresenterImpl.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenterImpl.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.73492604">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+              <folding>
+                <element signature="e#42#259#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileMetadata.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+              <folding>
+                <element signature="e#50#179#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_tree_activity.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/file_tree_activity.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.75">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -3601,7 +3611,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/Presenter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/activity/MainActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreeView.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/Something.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/JavaSandbox.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/PresenterHolder.kt" />
@@ -3610,12 +3619,16 @@
         <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/PresenterHolder.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/listener/FileTreeOnTouchListener.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/adapter/GestureAdapter.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenter.kt" />
+        <option value="$USER_HOME$/Library/Android/sdk/sources/android-23/java/util/Vector.java" />
+        <option value="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModelImpl.kt" />
         <option value="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenterImpl.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreeView.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/file_tree_activity.xml" />
         <option value="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/activity/FileTreeActivity.kt" />
-        <option value="$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModelImpl.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenterImpl.kt" />
       </list>
     </option>
   </component>
@@ -3656,6 +3669,90 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Pizarro" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android API 23 Platform &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android API 23 Platform &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android API 23 Platform &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android API 23 Platform &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3719,6 +3816,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="explorer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3890,6 +4013,122 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-xhdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pizarro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -3945,90 +4184,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="presenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="treelzebub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listener" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="treelzebub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizarro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -4151,7 +4306,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="device.picker.selection" value="192.168.57.101:5555" />
-    <property name="SearchEverywhereHistoryKey" value="FileMeta&#9;FILE&#9;file:///Users/tremurillo/Projects/pizarro/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt&#10;Appl&#9;FILE&#9;file:///Users/tremurillo/Projects/pizarro/app/src/main/java/net/treelzebub/pizarro/PizarroApplication.kt&#10;app_ba&#9;FILE&#9;file:///Users/tremurillo/Projects/pizarro/app/src/main/res/layout/app_bar_main.xml&#10;build.&#9;FILE&#9;file:///Users/tremurillo/Projects/pizarro/app/build.gradle" />
+    <property name="SearchEverywhereHistoryKey" value="FileTreeAc&#9;FILE&#9;file:///Users/tremurillo/Projects/pizarro/app/src/main/java/net/treelzebub/pizarro/activity/FileTreeActivity.kt&#10;FileMeta&#9;FILE&#9;file:///Users/tremurillo/Projects/pizarro/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt&#10;Appl&#9;FILE&#9;file:///Users/tremurillo/Projects/pizarro/app/src/main/java/net/treelzebub/pizarro/PizarroApplication.kt&#10;app_ba&#9;FILE&#9;file:///Users/tremurillo/Projects/pizarro/app/src/main/res/layout/app_bar_main.xml&#10;build.&#9;FILE&#9;file:///Users/tremurillo/Projects/pizarro/app/build.gradle" />
     <property name="DEBUGGABLE_DEVICE" value="unknown-google_nexus_5___5_1_0___api_22___1080x1920-192.168.57.101:5555" />
     <property name="DEBUGGABLE_PROCESS" value="net.treelzebub.pizarro.debug" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
@@ -4168,11 +4323,11 @@
       <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
       <recent name="$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi" />
       <recent name="$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
       <recent name="$PROJECT_DIR$/player/src/main/res/drawable-xhdpi" />
-      <recent name="$PROJECT_DIR$/player/src/main/res/drawable-xxxhdpi" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
@@ -4486,7 +4641,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48842338" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48842338" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4495,7 +4650,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.502442" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24114774" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24114774" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -4561,19 +4716,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt</url>
-          <line>18</line>
+          <line>19</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/activity/FileTreeActivity.kt</url>
-          <line>138</line>
+          <line>143</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/activity/FileTreeActivity.kt</url>
-          <line>94</line>
+          <line>98</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
@@ -4583,132 +4738,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/player/src/main/res/drawable-xxxhdpi/ic_cast.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_track_forward.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_track_back.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_stop.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_rewind.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_play.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_pause.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_mute.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_fast_forward.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_casting.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/player/src/main/res/drawable-xhdpi/ic_cast.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_folder.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_favorite.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_drive.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_down_arrow_bottom_line.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_delete.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_cut.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_copy.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_circle_slash.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_circle_plus.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_circle_minus.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_refresh.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_text_file.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_redo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_locked_empty.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_left_arrow.png">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_locked_empty.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -4758,22 +4788,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_unknown_file.png">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_unknown_file.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_unknown_file.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_audio_file.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xhdpi/ic_audio_file.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -4804,52 +4824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/net/Uri.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="449" column="22" selection-start-line="449" selection-start-column="22" selection-end-line="449" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="e#42#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-          <folding>
-            <element signature="e#50#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenterImpl.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/23.2.1/recyclerview-v7-23.2.1-sources.jar!/android/support/v7/widget/LinearLayoutManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -4857,16 +4831,6 @@
           <folding>
             <element signature="e#5057#5058#0" expanded="false" />
             <element signature="e#5103#5104#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/activity/FileTreeActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7522936">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding>
-            <element signature="e#41#1147#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4879,12 +4843,225 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/net/Uri.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="449" column="22" selection-start-line="449" selection-start-column="22" selection-end-line="449" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="125" column="39" selection-start-line="125" selection-start-column="39" selection-end-line="125" selection-end-column="39" />
+          <folding>
+            <element signature="e#4187#4217#0" expanded="true" />
+            <element signature="e#4260#4261#0" expanded="true" />
+            <element signature="e#4305#4306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/java/net/URI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="202" column="11" selection-start-line="202" selection-start-column="11" selection-end-line="202" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreeView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21673004">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_favorite.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_drive.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_down_arrow_bottom_line.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_delete.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_cut.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_copy.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_circle_slash.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_circle_plus.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_circle_minus.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_audio_file.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/model/FileTreeModelImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5642202">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
-            <element signature="e#47#275#0" expanded="true" />
+            <element signature="e#47#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_favorite.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_drive.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_down_arrow_bottom_line.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_delete.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_cut.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_copy.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_circle_slash.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_circle_plus.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_circle_minus.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_audio_file.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_left_arrow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/file_tree_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.75">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explorer/src/main/java/net/treelzebub/pizarro/explorer/entities/FileMetadata.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding>
+            <element signature="e#50#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/activity/FileTreeActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding>
+            <element signature="e#41#1167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <folding>
+            <element signature="e#42#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/treelzebub/pizarro/presenter/FileTreePresenterImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73492604">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="e#42#259#0" expanded="true" />
           </folding>
         </state>
       </provider>

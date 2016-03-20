@@ -23,6 +23,7 @@ import net.treelzebub.pizarro.presenter.FileTreePresenter
 import net.treelzebub.pizarro.presenter.FileTreePresenterImpl
 import net.treelzebub.pizarro.presenter.FileTreeView
 import net.treelzebub.pizarro.presenter.PresenterHolder
+import java.io.File
 
 /**
  * Created by Tre Murillo on 3/19/16
@@ -53,20 +54,23 @@ class FileTreeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
     override fun onBackPressed() {
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START)
+        } else if (presenter.canGoBack()) {
+            presenter.onBack()
         } else {
             super.onBackPressed()
         }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.main, menu)
+        menuInflater.inflate(R.menu.file_tree_activity, menu)
         return true
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.action_settings -> {}
+            R.id.action_back -> {
+                presenter.onBack()
+            }
         }
         return super.onOptionsItemSelected(item)
     }
@@ -96,7 +100,8 @@ class FileTreeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
         return false
     }
 
-    override fun setFileTree(treeItems: List<FileMetadata>) {
+    override fun setFileTree(treeItems: List<FileMetadata>?) {
+        treeItems ?: return
         fileTreeAdapter.treeItems = treeItems
     }
 
@@ -138,6 +143,6 @@ class FileTreeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
     private fun onClick(view: View) {
         val position = recycler.getChildLayoutPosition(view)
         val data = fileTreeAdapter.getItem(position) ?: return
-        presenter.changeDirOrOpen(this, data.uri)
+        presenter.changeDirOrOpen(this, data)
     }
 }

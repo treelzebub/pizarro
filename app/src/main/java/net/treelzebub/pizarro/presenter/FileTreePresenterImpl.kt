@@ -5,6 +5,7 @@ import android.net.Uri
 import net.treelzebub.pizarro.explorer.model.FileTreeModelImpl
 import net.treelzebub.pizarro.explorer.entities.FileMetadata
 import java.io.File
+import java.net.URI
 
 /**
  * Created by Tre Murillo on 3/19/16
@@ -21,12 +22,20 @@ class FileTreePresenterImpl(override var view: FileTreeView?) : FileTreePresente
         view?.setFileTree(metadataItems)
     }
 
-    override fun changeDirOrOpen(c: Context, uri: Uri) {
-        val file = File(uri.path)
-        if (file.isDirectory) {
-            view?.setFileTree(model.ls(file))
+    override fun changeDirOrOpen(c: Context, data: FileMetadata) {
+        val newFile = File(URI(data.uri.toString()))
+        if (newFile.isDirectory) {
+            view?.setFileTree(model.cd(data.parent, newFile))
         } else {
-            model.exec(c, uri)
+            model.exec(c, Uri.fromFile(newFile))
         }
+    }
+
+    override fun canGoBack(): Boolean {
+        return model.stack.peek() != null
+    }
+
+    override fun onBack() {
+        view?.setFileTree(model.back())
     }
 }

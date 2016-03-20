@@ -7,6 +7,7 @@ import android.os.Environment
 import android.webkit.MimeTypeMap
 import net.treelzebub.pizarro.explorer.entities.FileMetadata
 import java.io.File
+import java.util.*
 
 /**
  * Created by Tre Murillo on 3/19/16
@@ -15,11 +16,18 @@ class FileTreeModelImpl : FileTreeModel {
 
     private val rootDir: File get() = Environment.getExternalStorageDirectory()
 
+    override val stack: Stack<File> = Stack()
+
     override fun ls(dir: File?): List<FileMetadata> {
         val safeDir = dir ?: rootDir
         return safeDir.listFiles()
                       .map { FileMetadata(it) }
                       .sortedBy { it.name.first().toInt() }
+    }
+
+    override fun cd(oldDir: File, newDir: File): List<FileMetadata> {
+        stack.push(oldDir)
+        return ls(newDir)
     }
 
     override fun exec(c: Context, uri: Uri) {
@@ -31,5 +39,11 @@ class FileTreeModelImpl : FileTreeModel {
             setDataAndType(uri, type)
         }
         c.startActivity(intent)
+    }
+
+    override fun back(): List<FileMetadata>? {
+        return if (stack.isNotEmpty()) {
+            ls(stack.pop())
+        } else null
     }
 }

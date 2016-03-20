@@ -13,13 +13,15 @@ class FileMetadata {
     val name: String
     val size: String
     val uri: Uri
+    val parent: File
     @DrawableRes val icon: Int
 
     constructor(file: File) {
-        this.name = file.name
-        this.size = if (file.isDirectory) size(dirLength(file)) else size(file.length())
-        this.uri  = Uri.fromFile(file)
-        this.icon = drawableRes(file)
+        this.name   = file.name
+        this.size   = if (file.isDirectory) size(dirLength(file)) else size(file.length())
+        this.uri    = Uri.fromFile(file)
+        this.parent = file.parentFile
+        this.icon   = drawableRes(file)
     }
 
     private fun size(size: Long): String {

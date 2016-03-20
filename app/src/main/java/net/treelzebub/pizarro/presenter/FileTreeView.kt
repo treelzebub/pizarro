@@ -7,5 +7,5 @@ import net.treelzebub.pizarro.explorer.entities.FileMetadata
  */
 interface FileTreeView {
 
-    fun setFileTree(treeItems: List<FileMetadata>)
+    fun setFileTree(treeItems: List<FileMetadata>?)
 }
