@@ -7,7 +7,7 @@ import java.net.URI
 /**
  * Created by Tre Murillo on 3/19/16
  */
-class Metadata {
+class FileMetadata {
 
     val name: String
     val size: String

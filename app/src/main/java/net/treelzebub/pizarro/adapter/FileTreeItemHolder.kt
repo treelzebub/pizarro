@@ -7,7 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import butterknife.bindView
 import net.treelzebub.pizarro.R
-import net.treelzebub.pizarro.explorer.model.Metadata
+import net.treelzebub.pizarro.explorer.model.FileMetadata
 import java.io.File
 
 /**
@@ -18,7 +18,7 @@ class FileTreeItemHolder(val v: View, val listener: FileTreeListener) : Recycler
     val filenameText: TextView  by bindView(R.id.filename)
     val metadataText: TextView  by bindView(R.id.metadata)
 
-    var metadata: Metadata? = null
+    var metadata: FileMetadata? = null
         set(value) {
             field = value ?: return
             icon.setImageDrawable(ContextCompat.getDrawable(v.context, value.icon))
