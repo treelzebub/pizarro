@@ -4,6 +4,7 @@ import android.content.Context
 import android.net.Uri
 import net.treelzebub.pizarro.explorer.model.FileTreeModelImpl
 import net.treelzebub.pizarro.explorer.entities.FileMetadata
+import net.treelzebub.pizarro.explorer.model.FileTreeModel
 import java.io.File
 import java.net.URI
 
@@ -12,7 +13,7 @@ import java.net.URI
  */
 class FileTreePresenterImpl(override var view: FileTreeView?) : FileTreePresenter {
 
-    private val model: FileTreeModelImpl = FileTreeModelImpl()
+    private val model: FileTreeModel = FileTreeModelImpl()
     private var metadataItems: List<FileMetadata> = listOf()
 
     override fun create() {
@@ -32,7 +33,7 @@ class FileTreePresenterImpl(override var view: FileTreeView?) : FileTreePresente
     }
 
     override fun canGoBack(): Boolean {
-        return model.stack.peek() != null
+        return model.canGoBack()
     }
 
     override fun onBack() {
