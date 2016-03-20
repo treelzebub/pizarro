@@ -1,5 +1,7 @@
 package net.treelzebub.pizarro.explorer.model
 
+import android.content.Context
+import android.net.Uri
 import net.treelzebub.pizarro.explorer.entities.FileMetadata
 import java.io.File
 
@@ -9,4 +11,5 @@ import java.io.File
 interface FileTreeModel {
 
     fun ls(dir: File?): List<FileMetadata>
+    fun exec(c: Context, uri: Uri)
 }

@@ -1,6 +1,5 @@
-package net.treelzebub.pizarro
+package net.treelzebub.pizarro.presenter
 
-import net.treelzebub.pizarro.presenter.Presenter
 import java.util.*
 
 /**

@@ -1,9 +1,9 @@
 package net.treelzebub.pizarro.explorer.entities
 
+import android.net.Uri
 import android.support.annotation.DrawableRes
 import net.treelzebub.pizarro.explorer.R
 import java.io.File
-import java.net.URI
 
 /**
  * Created by Tre Murillo on 3/19/16
@@ -12,13 +12,13 @@ class FileMetadata {
 
     val name: String
     val size: String
-    val uri: URI
+    val uri: Uri
     @DrawableRes val icon: Int
 
     constructor(file: File) {
         this.name = file.name
         this.size = if (file.isDirectory) size(dirLength(file)) else size(file.length())
-        this.uri  = file.toURI()
+        this.uri  = Uri.fromFile(file)
         this.icon = drawableRes(file)
     }
 
@@ -46,10 +46,10 @@ class FileMetadata {
         return length
     }
 
-    val imageFormats = listOf("gif", "png", "jpg", "jpeg", "svg", "tif", "tiff")
-    val audioFormats = listOf("mp3", "wav", "ogg", "flac", "3ga", "wma", "midi")
-    val videoFormats = listOf("mp4", "avi", "mpeg", "mpg", "mov", "qt", "flv", "swf",
-                              "asf", "wmv", "h.264", "divx")
+    private val imageFormats = listOf("gif", "png", "jpg", "jpeg", "svg", "tif", "tiff")
+    private val audioFormats = listOf("mp3", "wav", "ogg", "flac", "3ga", "wma", "midi")
+    private val videoFormats = listOf("mp4", "avi", "mpeg", "mpg", "mov", "qt", "flv", "swf",
+            "asf", "wmv", "h.264", "divx")
     private fun drawableRes(file: File): Int {
         return if (file.isDirectory) {
             R.drawable.ic_folder

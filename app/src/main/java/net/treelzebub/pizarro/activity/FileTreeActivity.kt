@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.support.design.widget.FloatingActionButton
 import android.support.design.widget.NavigationView
 import android.support.design.widget.Snackbar
+import android.support.v4.view.GestureDetectorCompat
 import android.support.v4.view.GravityCompat
 import android.support.v4.widget.DrawerLayout
 import android.support.v7.app.ActionBarDrawerToggle
@@ -12,21 +13,22 @@ import android.support.v7.widget.DefaultItemAnimator
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.Toolbar
-import android.view.Menu
-import android.view.MenuItem
+import android.view.*
 import butterknife.bindView
-import net.treelzebub.pizarro.PresenterHolder
 import net.treelzebub.pizarro.R
 import net.treelzebub.pizarro.adapter.FileTreeAdapter
 import net.treelzebub.pizarro.explorer.entities.FileMetadata
+import net.treelzebub.pizarro.listener.FileTreeOnTouchListener
 import net.treelzebub.pizarro.presenter.FileTreePresenter
 import net.treelzebub.pizarro.presenter.FileTreePresenterImpl
 import net.treelzebub.pizarro.presenter.FileTreeView
+import net.treelzebub.pizarro.presenter.PresenterHolder
 
 /**
  * Created by Tre Murillo on 3/19/16
  */
-class FileTreeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener, FileTreeView {
+class FileTreeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener,
+        FileTreeOnTouchListener, FileTreeView {
 
     private val toolbar: Toolbar            by bindView(R.id.toolbar)
     private val fab: FloatingActionButton   by bindView(R.id.fab)
@@ -37,6 +39,7 @@ class FileTreeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
     private val presenter: FileTreePresenter by lazy { createPresenter() }
 
     private val fileTreeAdapter = FileTreeAdapter()
+    private val gestureDetector by lazy { GestureDetectorCompat(this, RecyclerGestureListener()) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -88,6 +91,11 @@ class FileTreeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
         return true
     }
 
+    override fun onInterceptTouchEvent(rv: RecyclerView, event: MotionEvent): Boolean {
+        gestureDetector.onTouchEvent(event)
+        return false
+    }
+
     override fun setFileTree(treeItems: List<FileMetadata>) {
         fileTreeAdapter.treeItems = treeItems
     }
@@ -114,7 +122,22 @@ class FileTreeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSel
         recycler.apply {
             itemAnimator = DefaultItemAnimator()
             layoutManager = LinearLayoutManager(this@FileTreeActivity)
+            addOnItemTouchListener(this@FileTreeActivity)
             adapter = fileTreeAdapter
         }
+    }
+
+    private inner class RecyclerGestureListener: GestureDetector.SimpleOnGestureListener() {
+        override fun onSingleTapConfirmed(e: MotionEvent): Boolean {
+            val view = recycler.findChildViewUnder(e.x, e.y)
+            onClick(view)
+            return super.onSingleTapConfirmed(e)
+        }
+    }
+
+    private fun onClick(view: View) {
+        val position = recycler.getChildLayoutPosition(view)
+        val data = fileTreeAdapter.getItem(position) ?: return
+        presenter.changeDirOrOpen(this, data.uri)
     }
 }
