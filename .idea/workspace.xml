@@ -103,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerActivity.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayerActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/player/src/main/java/net/treelzebub/pizarro/player/activity/PlayerActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24525043">
-              <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="101" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               <folding>
                 <element signature="e#48#660#0" expanded="true" />
               </folding>
@@ -115,30 +115,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="player.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/player/src/main/res/layout/player.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.42727274">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="e#178#206#0" expanded="true" />
-                <element signature="e#549#570#0" expanded="true" />
-                <element signature="e#605#626#0" expanded="true" />
-                <element signature="e#655#676#0" expanded="true" />
-                <element signature="e#820#841#0" expanded="true" />
-                <element signature="e#876#897#0" expanded="true" />
-                <element signature="e#932#953#0" expanded="true" />
-                <element signature="e#1097#1118#0" expanded="true" />
-                <element signature="e#1153#1174#0" expanded="true" />
-                <element signature="e#1203#1224#0" expanded="true" />
-                <element signature="e#1368#1389#0" expanded="true" />
-                <element signature="e#1424#1445#0" expanded="true" />
-                <element signature="e#1480#1501#0" expanded="true" />
-                <element signature="e#1654#1675#0" expanded="true" />
-                <element signature="e#1710#1731#0" expanded="true" />
-                <element signature="e#1760#1781#0" expanded="true" />
-                <element signature="e#2212#2233#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.82758623">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -3700,8 +3682,8 @@
         <option value="$PROJECT_DIR$/player/src/main/java/net/treelzebub/pizarro/player/MediaService.kt" />
         <option value="$PROJECT_DIR$/player/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/player/build.gradle" />
-        <option value="$PROJECT_DIR$/player/src/main/res/layout/player.xml" />
         <option value="$PROJECT_DIR$/player/src/main/java/net/treelzebub/pizarro/player/activity/PlayerActivity.kt" />
+        <option value="$PROJECT_DIR$/player/src/main/res/layout/player.xml" />
       </list>
     </option>
   </component>
@@ -5906,14 +5888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/player/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.392857">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.80546075">
@@ -5978,43 +5952,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/player/src/main/res/layout/player.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.42727274">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#178#206#0" expanded="true" />
-            <element signature="e#549#570#0" expanded="true" />
-            <element signature="e#605#626#0" expanded="true" />
-            <element signature="e#655#676#0" expanded="true" />
-            <element signature="e#820#841#0" expanded="true" />
-            <element signature="e#876#897#0" expanded="true" />
-            <element signature="e#932#953#0" expanded="true" />
-            <element signature="e#1097#1118#0" expanded="true" />
-            <element signature="e#1153#1174#0" expanded="true" />
-            <element signature="e#1203#1224#0" expanded="true" />
-            <element signature="e#1368#1389#0" expanded="true" />
-            <element signature="e#1424#1445#0" expanded="true" />
-            <element signature="e#1480#1501#0" expanded="true" />
-            <element signature="e#1654#1675#0" expanded="true" />
-            <element signature="e#1710#1731#0" expanded="true" />
-            <element signature="e#1760#1781#0" expanded="true" />
-            <element signature="e#2212#2233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/player/src/main/java/net/treelzebub/pizarro/player/activity/PlayerActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24525043">
-          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="101" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <element signature="e#48#660#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.392857">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player/src/main/res/layout/player.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82758623">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

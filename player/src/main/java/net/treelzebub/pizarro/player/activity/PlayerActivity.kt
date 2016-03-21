@@ -32,7 +32,7 @@ class PlayerActivity : AppCompatActivity() {
     private val playPause: ImageView    by bindView(R.id.play_pause)
     private val fastForward: View       by bindView(R.id.fast_forward)
     private val trackForward: View      by bindView(R.id.track_forward)
-    private val seekBar: SeekBar       by bindView(R.id.progress)
+    private val seekBar: SeekBar        by bindView(R.id.progress)
 
     private val mediaPlayer = MediaPlayer()
 
