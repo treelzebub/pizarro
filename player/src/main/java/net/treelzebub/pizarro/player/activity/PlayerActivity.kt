@@ -2,8 +2,6 @@ package net.treelzebub.pizarro.player.activity
 
 import android.app.Notification
 import android.graphics.BitmapFactory
-import android.media.MediaMetadataRetriever
-import android.media.MediaMetadataRetriever.*
 import android.media.MediaPlayer
 import android.os.AsyncTask
 import android.os.Bundle
@@ -43,7 +41,7 @@ class PlayerActivity : AppCompatActivity() {
         setUpProgressBar()
         if (intent.data != null) {
             val path = intent.data.path
-//            createNotif(metadata(path))
+            createNotif(MediaMetadata(path))
             play(path)
         }
         mediaPlayer.setOnCompletionListener {
@@ -120,26 +118,6 @@ class PlayerActivity : AppCompatActivity() {
                 .build()
         val notifMgr = NotificationManagerCompat.from(this)
         notifMgr.notify(UID, notif)
-    }
-
-    //TODO probably mv this to MediaMetadata constructor(path: String)
-    private fun metadata(path: String): MediaMetadata {
-        val mmr = MediaMetadataRetriever().apply { setDataSource(path) }
-        val retval = MediaMetadata().apply {
-            val img = mmr.embeddedPicture
-            if (img != null) {
-                image = BitmapFactory.decodeByteArray(img, 0, img.size)
-            }
-            artist = mmr.extractMetadata(METADATA_KEY_ARTIST)
-                    ?: mmr.extractMetadata(METADATA_KEY_ALBUMARTIST)
-                    ?: mmr.extractMetadata(METADATA_KEY_COMPOSER)
-                    ?: mmr.extractMetadata(METADATA_KEY_AUTHOR)
-            album = mmr.extractMetadata(METADATA_KEY_ALBUM)
-            track = mmr.extractMetadata(METADATA_KEY_TITLE)
-            length = mmr.extractMetadata(METADATA_KEY_DURATION)
-        }
-        mmr.release()
-        return retval
     }
 
     private fun play(path: String) {
