@@ -32,8 +32,8 @@ class FileTreeModelImpl : FileTreeModel {
         }
         return parentDirList +
                 safeDir.listFiles()
+                        .sortedWith(FileComparator())
                         .map { FileMetadata(it) }
-                        .sortedBy { it.name.first().toInt() }
     }
 
     override fun reload(): List<FileMetadata> {
@@ -79,4 +79,18 @@ class FileTreeModelImpl : FileTreeModel {
         } else null
     }
 
+    private inner class FileComparator : Comparator<File> {
+        override fun compare(o1: File, o2: File): Int {
+            if (o1.isDirectory && !o2.isDirectory) {
+                // Directory before non-directory
+                return -1
+            } else if (!o1.isDirectory && o2.isDirectory) {
+                // Non-directory after directory
+                return 1
+            } else {
+                // Alphabetic order otherwise
+                return o1.compareTo(o2)
+            }
+        }
+    }
 }
