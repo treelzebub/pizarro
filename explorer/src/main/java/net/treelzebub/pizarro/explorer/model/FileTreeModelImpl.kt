@@ -22,13 +22,18 @@ class FileTreeModelImpl : FileTreeModel {
 
     override val stack: Stack<File> = Stack()
 
-
     override fun ls(dir: File?): List<FileMetadata> {
         val safeDir = dir ?: rootDir
         currentDir = safeDir
-        return safeDir.listFiles()
-                      .map { FileMetadata(it) }
-                      .sortedBy { it.name.first().toInt() }
+        val parentDirList = if (currentDir != rootDir) {
+            arrayListOf(FileMetadata(currentDir.parentFile, true))
+        } else {
+            arrayListOf()
+        }
+        return parentDirList +
+                safeDir.listFiles()
+                        .map { FileMetadata(it) }
+                        .sortedBy { it.name.first().toInt() }
     }
 
     override fun reload(): List<FileMetadata> {
@@ -56,13 +61,12 @@ class FileTreeModelImpl : FileTreeModel {
     }
 
     override fun rm(file: File): Boolean {
-        val absFile = File(rootDir.toString() + file.path)
+        val absFile = File(file.toURI())
         if (!absFile.isDirectory) {
             absFile.delete()
-
         }
         Log.d(TAG, if (!absFile.exists()) "${file.absolutePath} deleted" else "${file.absolutePath} not deleted")
-        return file.exists()
+        return absFile.exists()
     }
 
     override fun canGoBack(): Boolean {

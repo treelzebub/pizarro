@@ -4,6 +4,7 @@ import android.net.Uri
 import android.support.annotation.DrawableRes
 import net.treelzebub.pizarro.explorer.R
 import java.io.File
+import java.net.URI
 
 /**
  * Created by Tre Murillo on 3/19/16
@@ -16,10 +17,10 @@ class FileMetadata {
     val parent: File
     @DrawableRes val icon: Int
 
-    val file: File get() = File(uri.toString())
+    val file: File get() = File(URI(uri.toString()))
 
-    constructor(file: File) {
-        this.name   = file.name
+    constructor(file: File, isParent: Boolean = false) {
+        this.name   = if (isParent) ".." else file.name
         this.size   = if (file.isDirectory) size(dirLength(file)) else size(file.length())
         this.uri    = Uri.fromFile(file)
         this.parent = file.parentFile

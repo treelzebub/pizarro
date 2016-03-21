@@ -5,8 +5,6 @@ import android.net.Uri
 import net.treelzebub.pizarro.explorer.entities.FileMetadata
 import net.treelzebub.pizarro.explorer.model.FileTreeModel
 import net.treelzebub.pizarro.explorer.model.FileTreeModelImpl
-import java.io.File
-import java.net.URI
 
 /**
  * Created by Tre Murillo on 3/19/16
@@ -23,6 +21,8 @@ class FileTreePresenterImpl(override var view: FileTreeView?) : FileTreePresente
     override fun create() {
         if (metadataItems.isEmpty()) {
             metadataItems = model.ls(null)
+        } else {
+            reload()
         }
     }
 
@@ -31,11 +31,11 @@ class FileTreePresenterImpl(override var view: FileTreeView?) : FileTreePresente
     }
 
     override fun changeDirOrOpen(c: Context, data: FileMetadata) {
-        val newFile = File(URI(data.uri.toString()))
-        if (newFile.isDirectory) {
-            metadataItems = model.cd(data.parent, newFile)
+        val file = data.file
+        if (file.isDirectory) {
+            metadataItems = model.cd(data.parent, file)
         } else {
-            model.exec(c, Uri.fromFile(newFile))
+            model.exec(c, Uri.fromFile(file))
         }
     }
 
@@ -45,7 +45,7 @@ class FileTreePresenterImpl(override var view: FileTreeView?) : FileTreePresente
 
     override fun rm(data: FileMetadata): Boolean {
         return if (model.rm(data.file)) {
-            metadataItems = model.reload()
+            reload()
             true
         } else false
     }
