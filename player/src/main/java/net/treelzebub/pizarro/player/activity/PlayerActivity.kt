@@ -10,10 +10,9 @@ import android.os.Bundle
 import android.support.v4.app.NotificationManagerCompat
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.app.NotificationCompat
-import android.view.DragEvent
 import android.view.View
 import android.widget.ImageView
-import android.widget.ProgressBar
+import android.widget.SeekBar
 import butterknife.bindView
 import net.treelzebub.pizarro.player.R
 import net.treelzebub.pizarro.player.entities.MediaMetadata
@@ -31,10 +30,9 @@ class PlayerActivity : AppCompatActivity() {
     private val trackBack: View         by bindView(R.id.track_back)
     private val rewind: View            by bindView(R.id.rewind)
     private val playPause: ImageView    by bindView(R.id.play_pause)
-    private val stop: View              by bindView(R.id.stop)
     private val fastForward: View       by bindView(R.id.fast_forward)
     private val trackForward: View      by bindView(R.id.track_forward)
-    private val progress: ProgressBar   by bindView(R.id.progress)
+    private val seekBar: SeekBar       by bindView(R.id.progress)
 
     private val mediaPlayer = MediaPlayer()
 
@@ -50,28 +48,28 @@ class PlayerActivity : AppCompatActivity() {
         }
         mediaPlayer.setOnCompletionListener {
             playPause.setImageResource(R.drawable.ic_play)
-            progress.progress = 0
+            seekBar.progress = 0
         }
         mediaPlayer.setOnPreparedListener {
             async() {
-                progress.max = it.duration
+                seekBar.max = it.duration
                 while (mediaPlayer.isPlaying) {
-                    progress.progress = mediaPlayer.currentPosition
+                    seekBar.progress = mediaPlayer.currentPosition
                 }
             }
         }
         mediaPlayer.setOnSeekCompleteListener {
-            progress.progress = it.currentPosition
+            seekBar.progress = it.currentPosition
         }
     }
 
     private fun setUpControls() {
         trackBack.setOnClickListener {
             //TODO playlist!
-            maybeDo { mediaPlayer.seekTo(0) }
+            doIfPlaying { mediaPlayer.seekTo(0) }
         }
         rewind.setOnClickListener {
-            maybeDo {
+            doIfPlaying {
                 mediaPlayer.seekTo(mediaPlayer.currentPosition - SEEK_DEFAULT) // rewind 30 seconds
             }
         }
@@ -85,13 +83,8 @@ class PlayerActivity : AppCompatActivity() {
             }
         }
         fastForward.setOnClickListener {
-            maybeDo {
+            doIfPlaying {
                 mediaPlayer.seekTo(mediaPlayer.currentPosition + SEEK_DEFAULT)
-            }
-        }
-        stop.setOnClickListener {
-            maybeDo {
-                mediaPlayer.stop()
             }
         }
         trackForward.setOnClickListener {
@@ -100,7 +93,21 @@ class PlayerActivity : AppCompatActivity() {
     }
 
     private fun setUpProgressBar() {
-//        progress
+        seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
+            override fun onProgressChanged(sb: SeekBar, position: Int, fromUser: Boolean) {
+                if (fromUser) {
+                    doIfPlaying {
+                        mediaPlayer.seekTo(position)
+                    }
+                }
+            }
+
+            override fun onStartTrackingTouch(sb: SeekBar) {
+            }
+
+            override fun onStopTrackingTouch(sb: SeekBar) {
+            }
+        })
     }
 
     private fun createNotif(meta: MediaMetadata) {
@@ -150,7 +157,7 @@ class PlayerActivity : AppCompatActivity() {
         }
     }
 
-    private fun maybeDo(fn: () -> Unit) {
+    private fun doIfPlaying(fn: () -> Unit) {
         if (mediaPlayer.isPlaying) {
             fn()
         }

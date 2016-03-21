@@ -12,15 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ad3f3a9-ba7f-471b-be76-72da9bbfbbc0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/java/net/treelzebub/pizarro/player/MediaService.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/java/net/treelzebub/pizarro/player/entities/MediaMetadata.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/layout/player.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/player/src/main/res/values/dimens.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/player/build.gradle" afterPath="$PROJECT_DIR$/player/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/player/src/main/java/net/treelzebub/pizarro/player/activity/PlayerActivity.kt" afterPath="$PROJECT_DIR$/player/src/main/java/net/treelzebub/pizarro/player/activity/PlayerActivity.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/player/src/main/res/layout/player.xml" afterPath="$PROJECT_DIR$/player/src/main/res/layout/player.xml" />
     </list>
     <ignored path="Pizarro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,21 +106,11 @@
       <file leaf-file-name="PlayerActivity.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/player/src/main/java/net/treelzebub/pizarro/player/activity/PlayerActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.2377702">
-              <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.24525043">
+              <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="101" selection-end-column="17" />
               <folding>
-                <element signature="e#48#694#0" expanded="true" />
+                <element signature="e#48#660#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProgressBar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/widget/ProgressBar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="237" column="27" selection-start-line="237" selection-start-column="23" selection-end-line="237" selection-end-column="27" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -134,8 +118,8 @@
       <file leaf-file-name="player.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/player/src/main/res/layout/player.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.090909">
-              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+            <state vertical-scroll-proportion="-0.42727274">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="e#178#206#0" expanded="true" />
                 <element signature="e#549#570#0" expanded="true" />
@@ -143,20 +127,17 @@
                 <element signature="e#655#676#0" expanded="true" />
                 <element signature="e#820#841#0" expanded="true" />
                 <element signature="e#876#897#0" expanded="true" />
-                <element signature="e#926#947#0" expanded="true" />
-                <element signature="e#1091#1112#0" expanded="true" />
-                <element signature="e#1147#1168#0" expanded="true" />
-                <element signature="e#1197#1218#0" expanded="true" />
-                <element signature="e#1354#1375#0" expanded="true" />
-                <element signature="e#1410#1431#0" expanded="true" />
-                <element signature="e#1460#1481#0" expanded="true" />
-                <element signature="e#1625#1646#0" expanded="true" />
-                <element signature="e#1681#1702#0" expanded="true" />
-                <element signature="e#1731#1752#0" expanded="true" />
-                <element signature="e#1905#1926#0" expanded="true" />
-                <element signature="e#1961#1982#0" expanded="true" />
-                <element signature="e#2011#2032#0" expanded="true" />
-                <element signature="e#2432#2453#0" expanded="true" />
+                <element signature="e#932#953#0" expanded="true" />
+                <element signature="e#1097#1118#0" expanded="true" />
+                <element signature="e#1153#1174#0" expanded="true" />
+                <element signature="e#1203#1224#0" expanded="true" />
+                <element signature="e#1368#1389#0" expanded="true" />
+                <element signature="e#1424#1445#0" expanded="true" />
+                <element signature="e#1480#1501#0" expanded="true" />
+                <element signature="e#1654#1675#0" expanded="true" />
+                <element signature="e#1710#1731#0" expanded="true" />
+                <element signature="e#1760#1781#0" expanded="true" />
+                <element signature="e#2212#2233#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -5469,7 +5450,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33076075" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33076075" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -5478,7 +5459,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.502442" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2783883" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2783883" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -5571,11 +5552,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_circle_minus.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/explorer/src/main/res/drawable-xxxhdpi/ic_audio_file.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -5986,38 +5962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/player/src/main/res/layout/player.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.090909">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-          <folding>
-            <element signature="e#178#206#0" expanded="true" />
-            <element signature="e#549#570#0" expanded="true" />
-            <element signature="e#605#626#0" expanded="true" />
-            <element signature="e#655#676#0" expanded="true" />
-            <element signature="e#820#841#0" expanded="true" />
-            <element signature="e#876#897#0" expanded="true" />
-            <element signature="e#926#947#0" expanded="true" />
-            <element signature="e#1091#1112#0" expanded="true" />
-            <element signature="e#1147#1168#0" expanded="true" />
-            <element signature="e#1197#1218#0" expanded="true" />
-            <element signature="e#1354#1375#0" expanded="true" />
-            <element signature="e#1410#1431#0" expanded="true" />
-            <element signature="e#1460#1481#0" expanded="true" />
-            <element signature="e#1625#1646#0" expanded="true" />
-            <element signature="e#1681#1702#0" expanded="true" />
-            <element signature="e#1731#1752#0" expanded="true" />
-            <element signature="e#1905#1926#0" expanded="true" />
-            <element signature="e#1961#1982#0" expanded="true" />
-            <element signature="e#2011#2032#0" expanded="true" />
-            <element signature="e#2432#2453#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/widget/ProgressBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -6026,12 +5970,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/widget/SeekBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.112262525">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player/src/main/res/layout/player.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.42727274">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#178#206#0" expanded="true" />
+            <element signature="e#549#570#0" expanded="true" />
+            <element signature="e#605#626#0" expanded="true" />
+            <element signature="e#655#676#0" expanded="true" />
+            <element signature="e#820#841#0" expanded="true" />
+            <element signature="e#876#897#0" expanded="true" />
+            <element signature="e#932#953#0" expanded="true" />
+            <element signature="e#1097#1118#0" expanded="true" />
+            <element signature="e#1153#1174#0" expanded="true" />
+            <element signature="e#1203#1224#0" expanded="true" />
+            <element signature="e#1368#1389#0" expanded="true" />
+            <element signature="e#1424#1445#0" expanded="true" />
+            <element signature="e#1480#1501#0" expanded="true" />
+            <element signature="e#1654#1675#0" expanded="true" />
+            <element signature="e#1710#1731#0" expanded="true" />
+            <element signature="e#1760#1781#0" expanded="true" />
+            <element signature="e#2212#2233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/player/src/main/java/net/treelzebub/pizarro/player/activity/PlayerActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2377702">
-          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.24525043">
+          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="101" selection-end-column="17" />
           <folding>
-            <element signature="e#48#694#0" expanded="true" />
+            <element signature="e#48#660#0" expanded="true" />
           </folding>
         </state>
       </provider>
