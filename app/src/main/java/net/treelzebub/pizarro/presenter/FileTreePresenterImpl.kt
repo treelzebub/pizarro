@@ -5,6 +5,7 @@ import android.net.Uri
 import net.treelzebub.pizarro.explorer.entities.FileMetadata
 import net.treelzebub.pizarro.explorer.model.FileTreeModel
 import net.treelzebub.pizarro.explorer.model.FileTreeModelImpl
+import net.treelzebub.pizarro.view.FileTreeView
 
 /**
  * Created by Tre Murillo on 3/19/16

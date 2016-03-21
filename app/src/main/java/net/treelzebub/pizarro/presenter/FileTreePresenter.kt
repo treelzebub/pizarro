@@ -2,6 +2,7 @@ package net.treelzebub.pizarro.presenter
 
 import android.content.Context
 import net.treelzebub.pizarro.explorer.entities.FileMetadata
+import net.treelzebub.pizarro.view.FileTreeView
 
 /**
  * Created by Tre Murillo on 3/19/16

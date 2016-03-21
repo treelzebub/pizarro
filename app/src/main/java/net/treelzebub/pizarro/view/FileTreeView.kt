@@ -1,4 +1,4 @@
-package net.treelzebub.pizarro.presenter
+package net.treelzebub.pizarro.view
 
 import net.treelzebub.pizarro.explorer.entities.FileMetadata
 

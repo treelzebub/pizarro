@@ -25,7 +25,7 @@ import net.treelzebub.pizarro.explorer.entities.FileMetadata
 import net.treelzebub.pizarro.listener.FileTreeOnTouchListener
 import net.treelzebub.pizarro.presenter.FileTreePresenter
 import net.treelzebub.pizarro.presenter.FileTreePresenterImpl
-import net.treelzebub.pizarro.presenter.FileTreeView
+import net.treelzebub.pizarro.view.FileTreeView
 import net.treelzebub.pizarro.presenter.PresenterHolder
 import kotlin.properties.Delegates
 
