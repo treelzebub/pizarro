@@ -63,10 +63,10 @@ class FileTreeModelImpl : FileTreeModel {
     override fun rm(file: File): Boolean {
         val absFile = File(file.toURI())
         if (!absFile.isDirectory) {
-            absFile.delete()
+            return absFile.delete()
         }
         Log.d(TAG, if (!absFile.exists()) "${file.absolutePath} deleted" else "${file.absolutePath} not deleted")
-        return absFile.exists()
+        return false
     }
 
     override fun canGoBack(): Boolean {
