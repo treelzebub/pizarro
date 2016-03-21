@@ -96,9 +96,7 @@ class PlayerActivity : AppCompatActivity() {
         seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(sb: SeekBar, position: Int, fromUser: Boolean) {
                 if (fromUser) {
-                    doIfPlaying {
-                        mediaPlayer.seekTo(position)
-                    }
+                    mediaPlayer.seekTo(position)
                 }
             }
 
@@ -164,7 +162,8 @@ class PlayerActivity : AppCompatActivity() {
     }
 }
 
-fun async(fn: () -> Unit) {
+// TODO this is all going to be in a Service, probably, so this fun is temporary
+private fun async(fn: () -> Unit) {
     object : AsyncTask<Void, Void, Void>() {
         override fun doInBackground(vararg params: Void): Void? {
             fn()
