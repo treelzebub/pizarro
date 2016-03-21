@@ -26,5 +26,7 @@ dependencies {
     compile "com.android.support:appcompat-v7:$support_version"
     compile 'io.reactivex:rxandroid-framework:0.24.0'
     compile 'net.danlew:android.joda:2.8.2'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.jakewharton:kotterknife:0.1.0-SNAPSHOT'
     compile 'com.github.treelzebub:kapsule:v0.41'
 }
